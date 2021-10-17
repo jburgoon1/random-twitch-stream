@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.signUpDiv{
+    display: flex;
+    justify-content: center;
+    
+}
+.signUpForm{
+    
+    display: inline-block;
+    align-items: center;
+    width:5rem;
+    margin-top: .5rem;
+
+    
+}
+
+input{
+    padding:10px;
+    border-radius: 1rem;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.15);
+}
+
+
+.signupsubmit{
+    width:100px;
+    padding:10px;
+    border-radius: 1rem;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    background-color: dimgray;
+    margin-top: .5rem;
+
+}

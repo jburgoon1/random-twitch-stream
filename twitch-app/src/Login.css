@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+.logInDiv{
+    display: flex;
+    justify-content: center;
+    
+   
+    
+}
+.logInForm{
+    
+    display: inline-block;
+    align-items: center;
+    width:5rem;
+    margin-top: .5rem;
+    
+    
+}
+
+input{
+    padding:10px;
+    border-radius: 1rem;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.15);
+}
+
+.loginsubmit{
+    width:100px;
+    padding:10px;
+    border-radius: 1rem;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.1);
+    background-color: dimgray;
+    margin-top: .5rem;
+
+}
