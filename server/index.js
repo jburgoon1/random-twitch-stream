@@ -1,6 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const app = express()
+const path = require('path');
 const port = process.env.PORT || 3001;
 const userRoutes = require('./routes/user')
 const {authenticateJWT} = require('./middleware/auth')
