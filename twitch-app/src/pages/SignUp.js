@@ -27,7 +27,6 @@ const SignUp = ({login}) =>{
         e.preventDefault();
         // addUser(formData)
         register(formData)
-        alert('Signed up!')
         setFormData(INITIAL_STATE)
         history.push('/')
       }
