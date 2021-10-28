@@ -12,12 +12,12 @@ export const Video = ({channel, id}) => {
         <div className="stream">
         <iframe
         title="twitch-stream"
-    src={`https://player.twitch.tv/?channel=${channel}&parent=localhost&muted=false`}
+    src={`https://player.twitch.tv/?channel=${channel}&parent=https://randomtwitchstream.herokuapp.com/random&muted=false`}
     height="500"
     width="600"
     allowFullScreen={true}>
 </iframe>
-<iframe src={`https://www.twitch.tv/embed/${channel}/chat?parent=localhost`}
+<iframe src={`https://www.twitch.tv/embed/${channel}/chat?parent=https://randomtwitchstream.herokuapp.com/random`}
         height="500"
         width="250">
 </iframe>
