@@ -1,6 +1,7 @@
 /** Middleware for handling req authorization for routes. */
 
 const jwt = require("jsonwebtoken");
+const { ExpressError } = require("../expressError");
 
 
 /** Auth JWT token, add auth'd user (if any) to req. */
