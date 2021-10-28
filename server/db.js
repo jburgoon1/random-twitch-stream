@@ -7,7 +7,10 @@ let DB_URI;
 
 
 let db = new Client({
-  connectionString: DB_URI
+  connectionString: DB_URI,
+  ssl: {
+    rejectUnauthorized: false
+  }
 });
 
 db.connect();
