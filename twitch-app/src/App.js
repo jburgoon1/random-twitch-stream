@@ -61,13 +61,14 @@ function App() {
        <SignUp login={logInUser}/>
     </Route>
     <Route path='/logout' logout={logout} />
+    <Route path="/random">
+      <Random apiToken={apiToken}/>
+    </Route>
     <Route path="/:username">
       <Profile user={user}/>
     </Route>
    
-    <Route path="/random">
-      <Random apiToken={apiToken}/>
-    </Route>
+    
     <Route path="/">
         <Home/>
       </Route>
