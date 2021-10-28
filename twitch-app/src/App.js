@@ -54,14 +54,14 @@ function App() {
       <Switch>
       
     
-    <Route path="/user/login">
+    <Route path="/login">
       <LogIn login={logInUser}/>
     </Route> 
-    <Route path="/user/signup">
+    <Route path="/signup">
        <SignUp login={logInUser}/>
     </Route>
-    <Route path='/user/logout' logout={logout} />
-    <Route path="/user/:username">
+    <Route path='/logout' logout={logout} />
+    <Route path="/:username">
       <Profile user={user}/>
     </Route>
    

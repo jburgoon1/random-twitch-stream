@@ -13,8 +13,8 @@ return (
       {!token ?
       <>
       <Nav className="ms-auto">
-      <Nav.Link as={NavLink} to="/user/signup" className="navlinks">Sign up</Nav.Link>
-      <Nav.Link as={NavLink} to="/user/login" className="navlinks">Log In</Nav.Link>
+      <Nav.Link as={NavLink} to="/signup" className="navlinks">Sign up</Nav.Link>
+      <Nav.Link as={NavLink} to="/login" className="navlinks">Log In</Nav.Link>
       </Nav>
       
       </>
@@ -22,8 +22,8 @@ return (
       <>
       <Nav className="ms-auto">
       <Nav.Link as={NavLink} to="/random" className="navlinks">Streams</Nav.Link>
-      <Nav.Link as={NavLink} to={`/user/${user}`} className="navlinks">{user}</Nav.Link>
-      <Nav.Link as={NavLink} to='/user/logout'  onClick={logout} className="navlinks">Logout</Nav.Link>
+      <Nav.Link as={NavLink} to={`/${user}`} className="navlinks">{user}</Nav.Link>
+      <Nav.Link as={NavLink} to='/logout'  onClick={logout} className="navlinks">Logout</Nav.Link>
       
     </Nav>
     </>
