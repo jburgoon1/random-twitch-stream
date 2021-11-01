@@ -14,7 +14,7 @@ export const Video = ({channel, id}) => {
             <Row>
                 
         <div className="stream ">
-            <Col xs md={6}>
+            <Col>
         <iframe
         title="twitch-stream"
     src={`https://player.twitch.tv/?channel=${channel}&parent=randomtwitchstream.herokuapp.com&muted=false`}
