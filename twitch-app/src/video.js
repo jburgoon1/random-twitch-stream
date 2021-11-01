@@ -3,7 +3,7 @@ import { useState } from 'react'
 import axios from 'axios'
 import { useEffect } from 'react'
 import ReactTwitchEmbedVideo from "react-twitch-embed-video"
-import {Container, Row, Col} from react-bootstrap;
+import {Container, Row, Col} from 'react-bootstrap'
 import "./video.css"
 export const Video = ({channel, id}) => {
     
