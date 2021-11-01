@@ -1,6 +1,6 @@
-/* .stream{
-   margin: 0 auto;
-} */
+.stream{
+   margin: auto;
+}
 @media (max-width:576px){
     iframe{
         width: 100%
