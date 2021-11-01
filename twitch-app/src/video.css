@@ -1,5 +1,5 @@
-/* .stream{
-    display: flex;
-    justify-content: center;
-} */
-
+@media (max-width:576px){
+iframe{
+    width: 100%
+}
+}

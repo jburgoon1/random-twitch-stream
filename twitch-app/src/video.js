@@ -10,11 +10,7 @@ export const Video = ({channel, id}) => {
    
 
     return (
-        <Container>
-            <Row>
-                
         <div className="stream ">
-            <Col md={6}>
         <iframe
         title="twitch-stream"
     src={`https://player.twitch.tv/?channel=${channel}&parent=randomtwitchstream.herokuapp.com&muted=false`}
@@ -22,17 +18,14 @@ export const Video = ({channel, id}) => {
     width="500"
     allowFullScreen={true}>
 </iframe>
-</Col>
-<Col md={6}>
+
 <iframe src={`https://www.twitch.tv/embed/${channel}/chat?parent=randomtwitchstream.herokuapp.com`}
         height="500"
         width="400"
         >
 </iframe>
-</Col>
+
 </div>
-</Row>
-</Container>
     )
 }
 
