@@ -10,7 +10,7 @@ export const Video = ({channel, id}) => {
    
 
     return (
-        <div className="stream ">
+        <div className="stream ml-auto">
         <iframe
         title="twitch-stream"
     src={`https://player.twitch.tv/?channel=${channel}&parent=randomtwitchstream.herokuapp.com&muted=false`}
