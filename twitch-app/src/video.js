@@ -23,7 +23,7 @@ export const Video = ({channel, id}) => {
     allowFullScreen={true}>
 </iframe>
 </Col>
-<Col xs sm={6}>
+<Col>
 <iframe src={`https://www.twitch.tv/embed/${channel}/chat?parent=randomtwitchstream.herokuapp.com`}
         height="500"
         width="400">
