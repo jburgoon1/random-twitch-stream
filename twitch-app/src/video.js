@@ -15,7 +15,7 @@ export const Video = ({channel, id}) => {
         title="twitch-stream"
     src={`https://player.twitch.tv/?channel=${channel}&parent=randomtwitchstream.herokuapp.com&muted=false`}
     height="500"
-    width="650"
+    width="75%"
     allowFullScreen={true}>
 </iframe>
 
