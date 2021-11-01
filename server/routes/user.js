@@ -30,10 +30,8 @@ router.post('/login', async function (req,res,next){
     try{
         const {username, password} = req.body
         const result = await User.login(username, password)
-        console.log(result)
         const token = createToken(result)
 
-        console.log(token)
         return res.json({message:`Welcome back ${result.username}`, token})
     }catch(e){
         next(e)

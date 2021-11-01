@@ -12,7 +12,6 @@ const LogIn = ({login}) =>{
     const [formData, setFormData] = useState(INITIAL_STATE)
    
    
-console.log(formData)
     const handleChange = (e) =>{
         const {name, value} = e.target
         setFormData((data) => ({
@@ -26,7 +25,6 @@ console.log(formData)
       async function handleSubmit(e) {
         e.preventDefault();
         const result = await api.login(formData)
-        console.log(result)
         login(result)
         history.push('/')
       }

@@ -33,7 +33,6 @@ const SignUp = ({login}) =>{
 
       const register = async (data) =>{
           const res = await api.register(data)
-          console.log(res)
           login(res)
       }
     return(

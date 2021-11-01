@@ -18,9 +18,7 @@ function App() {
   const [apiToken, setApiToken] = useState()
 
   const getApiToken = async () =>{
-    console.log(appKey, secret)
     const newToken = await axios.post(`https://id.twitch.tv/oauth2/token?client_id=${appKey}&client_secret=${secret}&grant_type=client_credentials`)
-    console.log(newToken.data)
     setApiToken(newToken.data.access_token)
 }
 
@@ -33,7 +31,6 @@ function App() {
   const logInUser = (data) =>{
     setToken(data)
     const username = jwt.decode(data).username
-    console.log(username)
     setUser(username)
   }
   const logout = () =>{

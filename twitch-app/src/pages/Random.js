@@ -18,7 +18,6 @@ const handleSelect = (e) =>{
         setSelectGame(() => ({
             [name]: value
         }))
-        console.log(selectGame)
 }
 
 const randomStream = (e) =>{
@@ -29,7 +28,6 @@ const randomStream = (e) =>{
     setStream(random)
 
     
-    console.log(stream)
 }
 
 const getGames = async () => {
@@ -51,7 +49,6 @@ const streams = await axios.get(`https://api.twitch.tv/helix/streams?game_id=${s
 })
 
 setGameStreams(streams.data.data)
-console.log(gameStreams)
 }
 useEffect(()=>{
     getGames()
