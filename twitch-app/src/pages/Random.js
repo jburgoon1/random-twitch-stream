@@ -4,6 +4,7 @@ import {Container, Button} from 'react-bootstrap'
 // import '../random.css'
 import {appKey, secret, accessToken} from '../config'
 import Video from '../video'
+
 const Random = ({apiToken}) =>{
 const [stream, setStream] = useState()
 const [games, setGames] = useState()
