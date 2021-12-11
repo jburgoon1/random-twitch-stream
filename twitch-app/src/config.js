@@ -1,5 +1,5 @@
 const appKey = "g3cpadpxnnd9gxed8srkr30ulotv6b"
-const secret = "mvpagfy8nztsz26jwxqnrsf4zihmnp"
-const accessToken = "8r58425i828m45gn2eikqpsqe4of5c"
+const secret = "vcz2pm1kt7oy6n8ogvc9xqdoxj8zz1"
+const accessToken = "wdzfpz5b3djphbwqhii2x2hpm16vpf"
 
 export {appKey, secret, accessToken};
